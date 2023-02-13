@@ -87,3 +87,7 @@ footer {
   justify-content: center;
   gap: 50px;
 }
+
+.footer-link:hover {
+  transform: scale(1.2);
+}
