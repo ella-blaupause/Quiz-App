@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+header {
+  text-align: center;
+  background-color: aqua;
+  padding: 20px;
+}
