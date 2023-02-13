@@ -4,54 +4,90 @@
 
 body {
   background-color: lightcoral;
-  margin:0;‚
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 header {
   text-align: center;
   background-color: aqua;
   padding: 20px;
-  margin: 0 0 5px 0; 
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  
+  margin: 0 0 5px 0;
 }
 
 .question-card {
+  position: relative;
   background-color: antiquewhite;
-  border: 3px solid brown;
-  margin: 5px 25px;
+  border: 5px solid brown;
+  border-radius: 10px;
+  margin: 15px 30px;
   padding: 20px;
-
+  box-shadow: 10px 10px 2px 0px #000000;
 }
 
-.antwort {
-    background-color: fuchsia;
-    border: 1px splid black;
-    height: 50px;
-    width: 120px;
-    font-size: large;
-    padding: 5px;
-    margin: 10px;
+p {
+  font-size: 1.5em;
 }
 
-.tag{
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 10px;
-    font-size: smaller;
+.answer {
+  background-color: fuchsia;
+  border: 5px splid black;
+  height: 50px;
+  width: 120px;
+  font-size: large;
+  font-family: initial;
+  padding: 5px;
+  margin: 10px;
 }
 
-.tag-style{
-    background-color: gray;
-    padding: 5px 14px;
-    border-radius: 5px;
+.answer:hover {
+  background-color: yellowgreen;
+}
 
+.tag {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: smaller;
+}
+
+.tag-style {
+  background-color: gray;
+  padding: 5px 14px;
+  border-radius: 5px;
+}
+
+.bookmark-style {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+.bookmark-style:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: aqua;
+  padding: 20px;
+  margin: 5px 0 0 0;
+}
+
+.footer_menue {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer-link:hover {
+  transform: scale(1.2);
 }
