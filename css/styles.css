@@ -4,7 +4,7 @@
 
 body {
   background-color: lightcoral;
-  margin: 0;
+  margin: 0px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -27,23 +27,23 @@ header {
   box-shadow: 10px 10px 2px 0px #000000;
 }
 
-p {
+.question {
   font-size: 1.5em;
 }
 
 .answer {
-  background-color: fuchsia;
-  border: 5px splid black;
+  background-color: coral;
   height: 50px;
   width: 120px;
   font-size: large;
   font-family: initial;
   padding: 5px;
   margin: 10px;
+  border-radius: 8px;
 }
 
 .answer:hover {
-  background-color: yellowgreen;
+  background-color: brown;
 }
 
 .tag {
@@ -90,4 +90,44 @@ footer {
 
 .footer-link:hover {
   transform: scale(1.2);
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 100px 0 80px;
+}
+
+.about-me {
+  margin: 100px;
+  text-align: left;
+}
+
+.counter {
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+
+.settings {
+  margin: 100px;
+  text-align: left;
+}
+
+.switch-button {
+  background-color: transparent;
+  border: 0;
+}
+
+.dark-style-div {
+  margin: 0 0 0 90px;
+  display: flex;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  gap: 10px;
 }
