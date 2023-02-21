@@ -3,43 +3,4 @@
 @import "components/card.css";
 @import "components/header.css";
 @import "components/navigation.css";
-
-.avatar {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
-  align-items: center;
-  gap: 10px;
-  margin: 40px 100px 0 80px;
-}
-
-.about-me {
-  margin: 100px;
-  text-align: left;
-}
-
-.counter {
-  background-color: gray;
-  border: 1px solid black;
-  border-radius: 8px;
-  font-size: 1.2em;
-}
-
-.settings {
-  margin: 100px;
-  text-align: left;
-}
-
-.switch-button {
-  background-color: transparent;
-  border: 0;
-}
-
-.dark-style-div {
-  margin: 0 0 0 90px;
-  display: flex;
-  font-size: 20px;
-  position: absolute;
-  left: 0;
-  gap: 10px;
-}
+@import "components/profile.css";

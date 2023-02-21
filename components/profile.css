@@ -1,0 +1,47 @@
+.avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 100px 0 80px;
+}
+
+.about-me {
+  margin: 100px;
+  text-align: left;
+}
+
+.counter {
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+
+.settings {
+  margin: 50px 100px 150px 100px;
+  text-align: left;
+}
+
+.switch-button {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.switch-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* .dark--switch {
+  margin: 0 0 0 90px;
+  display: flex;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  gap: 10px;
+}  */
