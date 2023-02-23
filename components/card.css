@@ -5,7 +5,7 @@
   background-color: antiquewhite;
   border: 5px solid brown;
   border-radius: 1rem;
-  margin: 5% 20% 5% 20%;
+  margin: 5% 20% 5% 25%;
   padding: 20px;
   box-shadow: 10px 10px 2px 0px #000000;
   width: 50%;
@@ -42,6 +42,20 @@
   top: -10px;
   border: none;
   background-color: transparent;
+  fill: black;
+  stroke: black;
+  stroke-width: 3px;
+}
+
+.bookmark--style-fill {
+  position: absolute;
+  right: 0px;
+  top: -10px;
+  border: none;
+  background-color: transparent;
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
 }
 
 .bookmark--style:hover {

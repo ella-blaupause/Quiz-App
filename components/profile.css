@@ -4,11 +4,11 @@
   justify-content: stretch;
   align-items: center;
   gap: 10px;
-  margin: 40px 100px 0 80px;
+  margin: 5vh 20vh 0 15vh;
 }
 
 .about-me {
-  margin: 100px;
+  margin: 20vh;
   text-align: left;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .settings {
-  margin: 50px 100px 150px 100px;
+  margin: 0 20vh 20vh 20vh;
   text-align: left;
 }
 
@@ -36,12 +36,3 @@
   flex-direction: row;
   gap: 20px;
 }
-
-/* .dark--switch {
-  margin: 0 0 0 90px;
-  display: flex;
-  font-size: 20px;
-  position: absolute;
-  left: 0;
-  gap: 10px;
-}  */

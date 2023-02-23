@@ -5,6 +5,7 @@
 body {
   background-color: lightcoral;
   margin: 0;
+  padding: 25% 0 15% 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
