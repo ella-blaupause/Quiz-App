@@ -1,8 +1,7 @@
 header {
   position: fixed;
   top: 0;
-  width: 100vw;
-  right: 0;
+  width: 100%;
   text-align: center;
   background-color: var(--aqua);
   padding: 3%;

@@ -1,0 +1,8 @@
+.main-form {
+  margin: 0 60px;
+}
+
+form * {
+  display: grid;
+  text-align: left;
+}
