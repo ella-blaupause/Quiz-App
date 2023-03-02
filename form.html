@@ -13,6 +13,7 @@
     <script src="./js/index.js" defer></script>
     <!-- <script src="./js/dark-mode.js" defer></script> -->
     <script src="./js/answer-button.js" defer></script>
+    <script src="./js/form.js" defer></script>
   </head>
 
   <body>
@@ -20,18 +21,20 @@
       <h1>Quiz App</h1>
     </header>
     <main class="main-form">
-      <form>
+      <form data-js="form">
         <fieldset>
-          <legend>Deine Frage-Karte</legend>
-          <label for="deine-frage">Deine Frage:</label>
-          <textarea id="deine-frage" rows="6"></textarea>
-          <label for="deine-antwort">Deine Antwort:</label>
-          <textarea id="deine-antwort" rows="6"></textarea>
+          <legend>Deine eigene Frage</legend>
+          <label for="deineFrage">Deine Frage:</label>
+          <textarea id="deineFrage" name="deineFrage" rows="6"></textarea>
+          <label for="deineAntwort">Deine Antwort:</label>
+          <textarea id="deineAntwort" name="deineAntwort" rows="6"></textarea>
           <label for="tag">Tag:</label>
-          <input id="tag" type="text" />
-          <button type="submit">Erstellen</button>
+          <input id="tag" name="tag" type="text" />
+          <button class="form-button" type="submit">Erstellen</button>
         </fieldset>
       </form>
+
+      <ul class="ul__cardList" data-js="cardList"></ul>
     </main>
 
     <footer>

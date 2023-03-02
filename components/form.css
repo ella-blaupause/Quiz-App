@@ -1,8 +1,44 @@
 .main-form {
-  margin: 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  min-height: 100vh;
 }
 
 form * {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   text-align: left;
+  border: 5px solid var(--brown);
+  border-radius: 0.5rem;
+  position: s;
+}
+
+legend {
+  background-color: antiquewhite;
+  padding: 0.4rem;
+  font-size: 1.3rem;
+}
+
+label {
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.form-button {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  width: 27%;
+  align-self: center;
+  background-color: antiquewhite;
+}
+
+.ul__cardList {
+  list-style: none;
 }
