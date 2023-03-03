@@ -14,6 +14,20 @@ form.addEventListener("submit", (event) => {
   data.deineFrage.focus();
 });
 
+const answerElement = document.querySelector('[data-js="deineAntwort"]');
+const amountLeft2 = document.querySelector('[data-js="amountLeft2"]');
+const maxLength = answerElement.getAttribute("maxlength");
+
+const updateAmountLeft = (value) => {
+  amountLeft2.innerText = value;
+};
+
+updateAmountLeft(maxLength);
+
+answerElement.addEventListener("input", () => {
+  updateAmountLeft(maxLength - answerElement.value.length);
+});
+
 function createNewCard(data) {
   const newCard = document.createElement("li");
 

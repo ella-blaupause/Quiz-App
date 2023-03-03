@@ -23,11 +23,33 @@
     <main class="main-form">
       <form data-js="form">
         <fieldset>
-          <legend>Deine eigene Frage</legend>
+          <legend>Deine eigene Fragen-Karte</legend>
           <label for="deineFrage">Deine Frage:</label>
-          <textarea id="deineFrage" name="deineFrage" rows="6"></textarea>
+          <textarea
+            maxlength="150"
+            data-js="deineFrage"
+            id="deineFrage"
+            name="deineFrage"
+            rows="6"
+          ></textarea>
+          <small class="form__character-count"
+            >(<span class="span-counter" data-js="amountLeft1"></span> Zeichen
+            übrig)</small
+          >
+
           <label for="deineAntwort">Deine Antwort:</label>
-          <textarea id="deineAntwort" name="deineAntwort" rows="6"></textarea>
+          <textarea
+            maxlength="150"
+            data-js="deineAntwort"
+            id="deineAntwort"
+            name="deineAntwort"
+            rows="6"
+          ></textarea>
+          <small class="form__character-count"
+            >(<span class="span-counter" data-js="amountLeft2"></span> Zeichen
+            übrig)</small
+          >
+
           <label for="tag">Tag:</label>
           <input id="tag" name="tag" type="text" />
           <button class="form-button" type="submit">Erstellen</button>

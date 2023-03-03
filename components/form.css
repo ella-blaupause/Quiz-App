@@ -15,7 +15,7 @@ form * {
   text-align: left;
   border: 5px solid var(--brown);
   border-radius: 0.5rem;
-  position: s;
+  position: relative;
 }
 
 legend {
@@ -33,10 +33,20 @@ label {
 .form-button {
   font-size: 1.3rem;
   padding: 0.5rem;
-  text-decoration: none;
   width: 27%;
-  align-self: center;
   background-color: antiquewhite;
+  text-align: center;
+}
+.form__character-count {
+  font-size: inherit;
+  color: #666;
+  border: none;
+  display: flexbox;
+  flex-direction: row;
+}
+
+.span-counter {
+  border: none;
 }
 
 .ul__cardList {
