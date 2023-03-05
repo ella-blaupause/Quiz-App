@@ -1,3 +1,7 @@
+footer {
+  z-index: 1;
+}
+
 .footer_menue {
   list-style: none;
   display: flex;

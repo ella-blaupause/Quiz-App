@@ -1,5 +1,5 @@
 .answer {
-  background-color: coral;
+  background-color: var(--coral);
   height: 50px;
   width: 120px;
   font-size: large;
@@ -10,5 +10,5 @@
 }
 
 .answer:hover {
-  background-color: brown;
+  background-color: var(--brown);
 }
