@@ -1,5 +1,5 @@
-import { cards } from "../../untils/cards.js";
-
+/* import { cards } from "../../untils/cards.js";
+ */
 export default function Card(props) {
   const card = document.createElement("section");
   card.classList.add("question-card");
