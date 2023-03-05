@@ -1,7 +1,8 @@
+import Header from "../components/Header/Header.js";
+import CardList from "../components/CardList/CardList.js";
+
 console.clear();
 
-const bookmark = document.querySelector('[data-js="bookmark"]');
+const root = document.getElementById("root");
 
-bookmark.addEventListener("click", () => {
-  bookmark.classList.toggle("bookmark--style-fill");
-});
+root.append(Header(), CardList());

@@ -10,10 +10,8 @@
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
     />
-    <script src="./js/index.js" defer></script>
-    <!-- <script src="./js/dark-mode.js" defer></script> -->
-    <script src="./js/answer-button.js" defer></script>
-    <script src="./js/form.js" defer></script>
+
+    <script type="module" src="./components/form/form.js"></script>
   </head>
 
   <body>
@@ -27,27 +25,27 @@
           <label for="deineFrage">Deine Frage:</label>
           <textarea
             maxlength="150"
-            data-js="deineFrage"
+            data-js="input-qustion"
             id="deineFrage"
             name="deineFrage"
             rows="6"
           ></textarea>
           <small class="form__character-count"
-            >(<span class="span-counter" data-js="amountLeft1"></span> Zeichen
-            übrig)</small
+            ><span class="span-counter" data-js="amountLeft_1"></span> Zeichen
+            übrig</small
           >
 
           <label for="deineAntwort">Deine Antwort:</label>
           <textarea
             maxlength="150"
-            data-js="deineAntwort"
+            data-js="input-answer"
             id="deineAntwort"
             name="deineAntwort"
             rows="6"
           ></textarea>
           <small class="form__character-count"
-            >(<span class="span-counter" data-js="amountLeft2"></span> Zeichen
-            übrig)</small
+            ><span class="span-counter" data-js="amountLeft_2"></span> Zeichen
+            übrig</small
           >
 
           <label for="tag">Tag:</label>

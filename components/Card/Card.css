@@ -35,29 +35,3 @@
   padding: 5px 14px;
   border-radius: 5px;
 }
-
-.bookmark--style {
-  position: absolute;
-  right: 0px;
-  top: -10px;
-  border: none;
-  background-color: transparent;
-  fill: black;
-  stroke: black;
-  stroke-width: 3px;
-}
-
-.bookmark--style-fill {
-  position: absolute;
-  right: 0px;
-  top: -10px;
-  border: none;
-  background-color: transparent;
-  fill: none;
-  stroke: black;
-  stroke-width: 3px;
-}
-
-.bookmark--style:hover {
-  transform: scale(1.1);
-}

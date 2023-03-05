@@ -1,7 +1,8 @@
 @import "global.css";
-@import "components/button.css";
-@import "components/card.css";
-@import "components/header.css";
-@import "components/navigation.css";
-@import "components/profile.css";
-@import "components/form.css";
+@import "components/button/button.css";
+@import "components/card/card.css";
+@import "components/Header/Header.css";
+@import "components/navigation/navigation.css";
+@import "components/profil/profile.css";
+@import "components/form/form.css";
+@import "components/Bookmark/Bookmark.css";

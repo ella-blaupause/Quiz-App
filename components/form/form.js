@@ -14,12 +14,12 @@ form.addEventListener("submit", (event) => {
   data.deineFrage.focus();
 });
 
-const answerElement = document.querySelector('[data-js="deineAntwort"]');
-const amountLeft2 = document.querySelector('[data-js="amountLeft2"]');
+const answerElement = document.querySelector('[data-js*="input"]');
+const amountLeft = document.querySelector('[data-js*="amountLeft"]');
 const maxLength = answerElement.getAttribute("maxlength");
 
 const updateAmountLeft = (value) => {
-  amountLeft2.innerText = value;
+  amountLeft_1.innerText = value;
 };
 
 updateAmountLeft(maxLength);
@@ -31,8 +31,8 @@ answerElement.addEventListener("input", () => {
 function createNewCard(data) {
   const newCard = document.createElement("li");
 
-  newCard.innerHTML = `<section class="question-card">
-    <button class="bookmark--style" type="button" data-js="bookmark">
+  newCard.innerHTML = `<section style="width: 90%; margin: 10% 0 10% 0;" class="question-card">
+    <button class="bookmark__style" type="button" data-js="bookmark">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"

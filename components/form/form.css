@@ -13,13 +13,14 @@ form * {
   flex-direction: column;
   gap: 10px;
   text-align: left;
-  border: 5px solid var(--brown);
+  border: 3px solid var(--brown);
   border-radius: 0.5rem;
   position: relative;
+  background-color: var(--antiquewhite);
 }
 
 legend {
-  background-color: antiquewhite;
+  background-color: var(--coral);
   padding: 0.4rem;
   font-size: 1.3rem;
 }
@@ -30,11 +31,16 @@ label {
   padding: 0.5rem;
 }
 
+textarea,
+input {
+  background-color: white;
+}
+
 .form-button {
   font-size: 1.3rem;
   padding: 0.5rem;
-  width: 27%;
-  background-color: antiquewhite;
+  width: 7rem;
+  background-color: var(--coral);
   text-align: center;
 }
 .form__character-count {
