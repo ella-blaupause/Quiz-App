@@ -19,7 +19,7 @@ const amountLeft = document.querySelector('[data-js*="amountLeft"]');
 const maxLength = answerElement.getAttribute("maxlength");
 
 const updateAmountLeft = (value) => {
-  amountLeft_1.innerText = value;
+  amountLeft.innerText = value;
 };
 
 updateAmountLeft(maxLength);
