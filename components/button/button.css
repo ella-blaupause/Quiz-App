@@ -12,3 +12,11 @@
 .answer:hover {
   background-color: var(--brown);
 }
+
+.form-button {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  width: 7rem;
+  background-color: var(--coral);
+  text-align: center;
+}
