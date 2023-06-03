@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: antiquewhite;
-  border: 5px solid brown;
+  background-color: var(--antiquewhite);
+  border: 5px solid var(--brown);
   border-radius: 1rem;
   margin: 5% 20% 5% 25%;
   padding: 20px;
@@ -34,30 +34,4 @@
   background-color: gray;
   padding: 5px 14px;
   border-radius: 5px;
-}
-
-.bookmark--style {
-  position: absolute;
-  right: 0px;
-  top: -10px;
-  border: none;
-  background-color: transparent;
-  fill: black;
-  stroke: black;
-  stroke-width: 3px;
-}
-
-.bookmark--style-fill {
-  position: absolute;
-  right: 0px;
-  top: -10px;
-  border: none;
-  background-color: transparent;
-  fill: none;
-  stroke: black;
-  stroke-width: 3px;
-}
-
-.bookmark--style:hover {
-  transform: scale(1.1);
 }

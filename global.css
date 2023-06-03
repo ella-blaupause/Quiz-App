@@ -4,10 +4,14 @@
 
 :root {
   --aqua: aqua;
+  --brown: brown;
+  --coral: coral;
+  --lightcoral: lightcoral;
+  --antiquewhite: antiquewhite;
 }
 
 body {
-  background-color: lightcoral;
+  background-color: var(--lightcoral);
   margin: 0;
   padding: 25% 0 15% 0;
   display: flex;

@@ -1,0 +1,53 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  min-height: 100vh;
+}
+
+form * {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  border: 3px solid var(--brown);
+  border-radius: 0.5rem;
+  position: relative;
+  background-color: var(--antiquewhite);
+}
+
+legend {
+  background-color: var(--coral);
+  padding: 0.4rem;
+  font-size: 1.5rem;
+}
+
+label {
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+textarea,
+input {
+  background-color: white;
+}
+
+.form__character-count {
+  font-size: inherit;
+  color: #666;
+  border: none;
+  display: flexbox;
+  flex-direction: row;
+}
+
+.span-counter {
+  border: none;
+}
+
+.ul__cardList {
+  list-style: none;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <script type="module" src="./components/form/form.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+    <main class="main-form">
+      <form data-js="form">
+        <fieldset>
+          <legend>Erstelle deine eigene Frage</legend>
+          <label for="deineFrage">Deine Frage:</label>
+          <textarea
+            maxlength="150"
+            data-js="input-qustion"
+            id="deineFrage"
+            name="deineFrage"
+            rows="6"
+          ></textarea>
+          <small class="form__character-count"
+            ><span class="span-counter" data-js="amountLeft_1"></span> Zeichen
+            übrig</small
+          >
+
+          <label for="deineAntwort">Deine Antwort:</label>
+          <textarea
+            maxlength="150"
+            data-js="input-answer"
+            id="deineAntwort"
+            name="deineAntwort"
+            rows="6"
+          ></textarea>
+          <small class="form__character-count"
+            ><span class="span-counter" data-js="amountLeft_2"></span> Zeichen
+            übrig</small
+          >
+
+          <label for="tag">Tag:</label>
+          <input id="tag" name="tag" type="text" />
+          <button class="form-button" type="submit">Erstellen</button>
+        </fieldset>
+      </form>
+
+      <ul class="ul__cardList" data-js="cardList"></ul>
+    </main>
+
+    <footer>
+      <nav class="footer_menue">
+        <li class="footer-link">
+          <a href="index.html"
+            ><img width="60px" src="./assets/home-161.svg" alt=""
+          /></a>
+        </li>
+        <li class="footer-link">
+          <a href="bookmark.html"
+            ><img width="60px" src="./assets/bookmark-ribbon-7786.svg" alt=""
+          /></a>
+        </li>
+        <li class="footer-link">
+          <a href="#"
+            ><img width="60px" src="./assets/black-add-button-12020.svg" alt=""
+          /></a>
+        </li>
+        <li class="footer-link">
+          <a href="profile.html"
+            ><img width="60px" src="./assets/user-4250.svg" alt=""
+          /></a>
+        </li>
+      </nav>
+    </footer>
+  </body>
+</html>

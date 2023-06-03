@@ -1,0 +1,22 @@
+.answer {
+  background-color: var(--coral);
+  height: 50px;
+  width: 120px;
+  font-size: large;
+  font-family: initial;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.answer:hover {
+  background-color: var(--brown);
+}
+
+.form-button {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  width: 7rem;
+  background-color: var(--coral);
+  text-align: center;
+}
